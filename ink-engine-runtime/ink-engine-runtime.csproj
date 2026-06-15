@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.0;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
     <RootNamespace>Ink.Runtime</RootNamespace>
     <AssemblyName>ink-engine-runtime</AssemblyName>
   </PropertyGroup>
@@ -21,6 +21,7 @@
     <PackageId>Inkle.Ink.Engine</PackageId>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <NoWarn>1701;1702;1591</NoWarn>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
   <!-- PropertyGroup Condition="'$(Configuration)'=='Release'">

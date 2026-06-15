@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>Ink</RootNamespace>
     <AssemblyName>ink_compiler</AssemblyName>
   </PropertyGroup>
@@ -20,6 +20,7 @@
     <PackageId>Inkle.Ink.Compiler</PackageId>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
   <!-- PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net35|AnyCPU'">
